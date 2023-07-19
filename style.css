@@ -467,9 +467,106 @@ nav .logo .logo_content h3 span{
     font-weight: 400;
 }
 
+/* Footer Section */
+
+footer{
+    width: 100%;
+    background-color: #0B0223;
+    padding: 4rem 0;
+}
+
+.small_container{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
 
 
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 1rem;
+}
 
+footer .logo h3{
+    color: #FFF;
+    font-size: 1.5rem;
+}
+
+footer .logo h3 span{
+    color: #FF42A5;
+    font-size: 2rem;
+}
+
+.footer_list_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.list_left{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.list_right{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer_list_container li a{
+    color: rgba(255, 255, 255, 0.956);
+}
+
+.footer_icon_container i{
+    color: rgba(255, 255, 255, 0.956);
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+.footer_icon_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 1rem 0;
+}
+
+.last_list_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 1rem;
+}
+
+.last_list_container ul li a{
+    color: rgba(255, 255, 255, 0.863);
+}
+
+.last_list_left ul{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.last_list_right ul{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.small_container p{
+    color: #766e8b;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
 
 /* Responsive For Mobile Device */
 
@@ -612,6 +709,24 @@ nav .logo .logo_content h3 span{
         font-size: 13px;
         color: #0B0223;
         font-weight: 400;
+    }
+
+    .footer_list_container{
+        margin: 2rem 0;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer_icon_container{
+        margin: 2rem 0;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .last_list_container{
+        flex-direction: column;
+        gap: 20px;
+        margin: 2rem 0;
     }
     
 
