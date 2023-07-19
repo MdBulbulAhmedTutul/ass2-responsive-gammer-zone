@@ -103,3 +103,19 @@ nav .logo .logo_content h3 span{
         margin-right: 0;
     }
 }
+
+/* Responsive For Tablet Device */
+
+@media screen and (min-width: 430px) and (max-width: 768px) {
+    nav{
+        flex-direction: column;
+    }
+
+    .nav_item ul{
+        margin-top: 20px;
+    }
+
+    .nav_item ul li{
+        margin: 0 15px;
+    }
+}
